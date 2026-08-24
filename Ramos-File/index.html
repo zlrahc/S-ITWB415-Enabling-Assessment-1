@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lenard Ramos · Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <span class="logo-icon">◆</span>
+      <h1>Lenard.dev</h1>
+    </div>
+    <button id="menu_btn" aria-label="Toggle Menu">☰</button>
+    <nav>
+      <a href="#about" class="active">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#my_works">Projects</a>
+      <a href="#journey">Journey</a>
+      <a href="#contacts">Contact</a>
+    </nav>
+    <button id="dark_mode_toggle" aria-label="Toggle Dark Mode">🌙</button>
+  </header>
+
+  <main>
+    <section id="about" class="hero">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="badge"> Welcome to my portfolio</div>
+          <h2>Hi, I'm <span class="highlight">Lenard Ramos</span></h2>
+          <p class="hero-subtitle">
+            Information Technology Graduate from De La Salle University - Dasmariñas
+          </p>
+          <p>
+            I specialize in full-stack software development, building clean,
+            responsive, and user-friendly websites. I combine a strong foundation
+            in front-end development with back-end database management to create
+            complete digital solutions.
+          </p>
+          <div class="hero-actions">
+            <a href="#my_works" class="btn btn-primary">View My Work</a>
+            <a href="#contacts" class="btn btn-outline">Let's Connect</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="profile-img-container">
+            <!-- TODO(Ramos, Lenard): Add actual image path in the src attribute -->
+            <img
+              id="profile_picture"
+              src="/Ramos-File/images/personal-picture.png"
+              alt="Lenard's Profile Picture"
+              class="profile-img"
+            >
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="section-header">
+        <span class="section-tag">Expertise</span>
+        <h2>My Skills</h2>
+        <p>Technologies and tools I work with</p>
+      </div>
+      <div class="skills-container">
+        <div class="skill-card">
+          <span class="skill-tag">HTML5 &amp; CSS3</span>
+          <span class="skill-level">Advanced</span>
+        </div>
+        <div class="skill-card">
+          <span class="skill-tag">JavaScript &amp; React</span>
+          <span class="skill-level">Intermediate</span>
+        </div>
+        <div class="skill-card">
+          <span class="skill-tag">PHP &amp; SQL</span>
+          <span class="skill-level">Intermediate</span>
+        </div>
+        <div class="skill-card">
+          <span class="skill-tag">Responsive Design</span>
+          <span class="skill-level">Advanced</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="interests" class="alt-bg">
+      <div class="section-header">
+        <span class="section-tag">Beyond Code</span>
+        <h2>Interests</h2>
+        <p>What I enjoy outside of development</p>
+      </div>
+      <div class="interests-container">
+        <div class="interest-card">
+          <span class="interest-tag">Sports</span>
+          <span class="interest-desc">Staying active and competitive</span>
+        </div>
+        <div class="interest-card">
+          <span class="interest-tag">Playing Video Games</span>
+          <span class="interest-desc">Relaxing and having fun</span>
+        </div>
+        <div class="interest-card">
+          <span class="interest-tag">Learning New Things</span>
+          <span class="interest-desc">Always trying to learn and improve</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="my_works">
+      <div class="section-header">
+        <span class="section-tag">Portfolio</span>
+        <h2>My Works</h2>
+        <p>Projects I've built and contributed to</p>
+      </div>
+      <div id="project_list">
+        <div class="project-card">
+          <div class="project-info">
+            <h3>
+              <a href="https://stan-0101.github.io/Ramos_Summ-/">
+                Water Billing System
+              </a>
+            </h3>
+            <p>A comprehensive water billing solution for efficient management and tracking of utility consumption.</p>
+            <div class="project-tags">
+              <span>PHP</span>
+              <span>MySQL</span>
+              <span>Bootstrap</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-info">
+            <h3>
+              <a href="https://stan-0101.github.io/survey-form/">Vehicle Survey</a>
+            </h3>
+            <p>A simple yet effective vehicle survey form for collecting and analyzing transportation data.</p>
+            <div class="project-tags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-info">
+            <h3>
+              <a href="https://stan-0101.github.io/Weather-Checker/">
+                Weather Checker
+              </a>
+            </h3>
+            <p>A simple yet effective weather checking application with real-time data and forecasts.</p>
+            <div class="project-tags">
+              <span>API</span>
+              <span>JavaScript</span>
+              <span>CSS3</span>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    </section>
+
+    <section id="journey" class="alt-bg">
+      <div class="section-header">
+        <span class="section-tag">My Story</span>
+        <h2>My Journey</h2>
+      </div>
+      <div class="journey-content">
+        <div class="journey-timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <p>
+                My path in IT has been all about curiosity for how systems operate and
+                connect. Doing my best in each activity given to me, from being a person
+                that had no knowledge in programming to being a person that is capable
+                of multiple applications with front-end and back-end capabilities.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <p>
+                I continue my journey by learning from others and being curious about new
+                technologies, always striving to improve my skills and deliver better
+                solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="my_goals">
+      <div class="section-header">
+        <span class="section-tag">Future Vision</span>
+        <h2>My Goals</h2>
+      </div>
+      <div class="goals-grid">
+        <div class="goal-card">
+          <h3>Reliable Professional</h3>
+          <p>
+            I am currently aiming to become a person that can be relied on any task
+            that is given, I want to be a person that can be trusted to do the job
+            and be able to deliver it on time.
+          </p>
+        </div>
+        <div class="goal-card">
+          <h3>Career Growth</h3>
+          <p>
+            I am looking forward to starting my career with a company that can help
+            me grow and learn more about the IT industry, and be able to contribute
+            to the company's growth as well.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="alt-bg">
+      <div class="section-header">
+        <span class="section-tag">Feedback</span>
+        <h2>Testimonials</h2>
+        <p>What people say about working with me</p>
+      </div>
+      <!-- TODO(Ramos, Lenard): Add actual client or peer quotes here -->
+      <div id="testimonial_list">
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <p>An excellent collaborator with a great eye for detail and a passion for clean code.</p>
+          <span>- NAME</span>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <p>An excellent collaborator with a great eye for detail and a passion for clean code.</p>
+          <span>- NAME</span>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <p>An excellent collaborator with a great eye for detail and a passion for clean code.</p>
+          <span>- NAME</span>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <p>An excellent collaborator with a great eye for detail and a passion for clean code.</p>
+          <span>- NAME</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacts">
+      <div class="section-header">
+        <span class="section-tag">Get in Touch</span>
+        <h2>Contact Me</h2>
+      </div>
+      <form id="contact_form">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" placeholder="Enter your full name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" placeholder="Tell me about your project" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <p id="form_msg"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2026 Lenard Ramos. Built with ❤️</p>
+    </div>
+  </footer>
+
+  <div id="project_modal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h3 id="modal_title">Project Title</h3>
+      <p id="modal_desc">Project description goes here.</p>
+      <a id="modal_link" href="#" target="_blank" class="btn btn-primary">View Project</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
