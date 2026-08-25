@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aiven Allyson Martin — Portfolio</title>
+  <meta name="description" content="Portfolio of Aiven Allyson A. Martin — BSIT Web Development student at De La Salle University-Dasmariñas" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Quicksand:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+
+  <div class="petals-field" id="petalsField" aria-hidden="true"></div>
+
+  <div class="growth-vine" id="growthVine" aria-hidden="true">
+    <div class="growth-vine-track">
+      <div class="growth-vine-fill" id="growthVineFill"></div>
+    </div>
+    <div class="growth-vine-bloom" id="growthVineBloom">
+      <svg viewBox="0 0 40 40" width="30" height="30">
+        <g fill="var(--marigold)">
+          <circle cx="20" cy="10" r="7"/>
+          <circle cx="30" cy="20" r="7"/>
+          <circle cx="20" cy="30" r="7"/>
+          <circle cx="10" cy="20" r="7"/>
+        </g>
+        <circle cx="20" cy="20" r="6" fill="var(--forest-700)"/>
+      </svg>
+    </div>
+  </div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="nav-wrap">
+      <a href="#home" class="logo">
+        <span class="logo-leaf" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2C7 2 3 6 3 11c0 6 9 11 9 11s9-5 9-11c0-5-4-9-9-9Z" fill="currentColor"/>
+            <path d="M12 4v16" stroke="#fff" stroke-width="1.2" stroke-linecap="round"/>
+          </svg>
+        </span>
+        My Portfolio<span class="logo-dot">.</span>
+      </a>
+
+      <nav class="main-nav" id="mainNav">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active-link" data-nav>Home</a></li>
+          <li><a href="#about" class="nav-link" data-nav>About</a></li>
+          <li><a href="#skills" class="nav-link" data-nav>Skills</a></li>
+          <li><a href="#experience" class="nav-link" data-nav>Experience</a></li>
+          <li><a href="#projects" class="nav-link" data-nav>Projects</a></li>
+          <li><a href="#education" class="nav-link" data-nav>Education</a></li>
+          <li><a href="#contact" class="nav-link" data-nav>Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-controls">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+          <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="4"/>
+            <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" stroke-linecap="round"/>
+          </svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8Z" stroke-linejoin="round"/>
+          </svg>
+        </button>
+
+        <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mainNav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="section hero">
+      <div class="hero-decor" aria-hidden="true">
+        <span class="parallax-item bloom-1" data-speed="0.25" data-depth="-40">
+          <svg viewBox="0 0 40 40" width="40" height="40">
+            <g fill="var(--sage-500)"><circle cx="20" cy="10" r="7"/><circle cx="30" cy="20" r="7"/><circle cx="20" cy="30" r="7"/><circle cx="10" cy="20" r="7"/></g>
+            <circle cx="20" cy="20" r="6" fill="var(--marigold)"/>
+          </svg>
+        </span>
+        <span class="parallax-item leaf-1" data-speed="0.4" data-depth="-90">
+          <svg viewBox="0 0 24 24" width="34" height="34" fill="var(--sage-400)">
+            <path d="M12 2C7 2 3 6 3 11c0 6 9 11 9 11s9-5 9-11c0-5-4-9-9-9Z"/>
+          </svg>
+        </span>
+        <span class="parallax-item bloom-2" data-speed="0.15" data-depth="-15">
+          <svg viewBox="0 0 40 40" width="26" height="26">
+            <g fill="var(--blush)"><circle cx="20" cy="10" r="7"/><circle cx="30" cy="20" r="7"/><circle cx="20" cy="30" r="7"/><circle cx="10" cy="20" r="7"/></g>
+            <circle cx="20" cy="20" r="6" fill="var(--forest-700)"/>
+          </svg>
+        </span>
+        <span class="parallax-item leaf-2" data-speed="0.3" data-depth="-65">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="var(--sage-600)">
+            <path d="M12 2C7 2 3 6 3 11c0 6 9 11 9 11s9-5 9-11c0-5-4-9-9-9Z"/>
+          </svg>
+        </span>
+      </div>
+
+      <div class="hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">BSIT · Web Development · De La Salle University – Dasmariñas</p>
+          <h1 class="hero-title">
+            Hi, I'm Ally —<br/>
+            <span id="typingText" class="typing-text"></span><span class="typing-cursor" aria-hidden="true">|</span>
+          </h1>
+          <p class="hero-sub">
+            I build clean, considered interfaces — full-stack web apps, mobile UI, and freelance design work.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">See my projects</a>
+            <a href="#contact" class="btn btn-outline">Say hello</a>
+          </div>
+        </div>
+
+        <div class="id-card-stage">
+          <div class="lanyard-clip" aria-hidden="true"></div>
+          <div class="id-card-wrapper" id="idCardWrapper">
+            <div class="lanyard-strap" aria-hidden="true"></div>
+
+            <div class="id-card" id="idCard">
+              <div class="id-card-inner" id="idCardInner">
+
+                <div class="id-card-face id-card-front">
+                  <div class="id-card-header">
+                    <span class="id-card-school">DLSU – DASMARIÑAS</span>
+                    <span class="id-card-type">STUDENT </span>
+                  </div>
+                  <div class="id-card-photo">
+                    <img src="assets/profile.png" alt="Aiven Allyson A. Martin" />
+                  </div>
+                  <div class="id-card-info">
+                    <h3>Aiven Allyson A. Martin</h3>
+                    <p>BS Information Technology</p>
+                    <p class="id-card-track">Web Development Track</p>
+                  </div>
+                  <div class="id-card-footer">
+                    <span class="id-card-id">ID NO. 252</span>
+                  </div>
+                  <span class="id-card-hint">tug the card &middot; tap to flip</span>
+                </div>
+
+                <div class="id-card-face id-card-back">
+                  <div class="id-card-header">
+                    <span class="id-card-school">Goodluck forgetting my eyes</span>
+                  
+                  </div>
+                  <ul class="id-card-back-list">
+                    <li><span>Focus</span>Web Development &amp; UI/UX Design</li>
+                    <li><span>Currently</span>Open to internships</li>
+                    <li><span>Reach me</span>martinallyson165@gmail.com</li>
+                  </ul>
+                  <div class="id-card-signature">
+                    <span>Signed,</span>
+                    <em>Ally</em>
+                  </div>
+                  <span class="id-card-hint">tap to flip back</span>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <a href="#about" class="scroll-cue" aria-label="Scroll to About section">
+        <span></span>
+      </a>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-inner">
+        <p class="eyebrow">About me</p>
+        <h2 class="section-title"><span class="bloom-icon" aria-hidden="true"></span>A little about my background</h2>
+
+        <div class="about-grid">
+          <div class="about-photo" data-reveal>
+            <div class="about-photo-frame">
+              <img src="assets/ally.jpg" alt="Aiven Allyson A. Martin smiling outdoors" />
+            </div>
+            <span class="about-photo-tape" aria-hidden="true"></span>
+          </div>
+
+          <div class="about-copy" data-reveal style="--i:1">
+            <p>
+              I'm a Bachelor of Information Technology student majoring in Web Development at
+              De La Salle University – Dasmariñas. 
+            </p>
+            <p>
+              I’m a passionate Web Developer and UI/UX Designer who enjoys turning ideas into intuitive, meaningful digital experiences. 
+              I’m driven by the goal of creating websites and applications 
+              that are not only visually engaging, but also simple, accessible, and enjoyable to use.
+            </p>
+            <div class="about-actions">
+              <a href="#contact" class="btn btn-outline">Let's connect</a>
+              
+            </div>
+          </div>
+
+          <ul class="about-facts" data-reveal style="--i:2">
+    
+            <li>
+              <span class="fact-label">Studying</span>
+              <span class="fact-value">BS Information Technology, Web Development </span>
+            </li>
+            <li>
+              <span class="fact-label">Recognitions</span>
+              <span class="fact-value">Fain Scholar &middot; Varsity Scholar &middot; DOLE SPES Grantee</span>
+            </li>
+            <li>
+              <span class="fact-label">Based in</span>
+              <span class="fact-value">Cavite, Philippines</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <div class="section-inner">
+        <p class="eyebrow">What I work with</p>
+        <h2 class="section-title"><span class="bloom-icon" aria-hidden="true"></span>Skills &amp; tools</h2>
+        <p class="section-note">Grouped the way I use them day to day — from language fundamentals to the frameworks and tools behind each project.</p>
+
+        <div class="skills-grid" id="skillsGrid">
+
+          <div class="skill-card" data-reveal style="--i:0">
+            <span class="skill-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M4 4h16v16H4V4Z" stroke-linejoin="round"/>
+                <path d="M8.5 14.5c0 1.4 1 2 2 2s1.7-.6 1.7-1.7c0-2.4-3.6-1.9-3.6-4.5 0-1.1.9-1.8 2-1.8.9 0 1.6.4 1.9 1.1" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <h3>Programming</h3>
+            <ul class="skill-tags">
+              <li>Java</li><li>JavaScript</li><li>Python</li><li>C#</li><li>SQL</li><li>HTML</li><li>CSS</li>
+            </ul>
+          </div>
+
+          <div class="skill-card" data-reveal style="--i:1">
+            <span class="skill-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8">
+                <circle cx="12" cy="12" r="3"/>
+                <path d="M4 12c0-2 3.6-6 8-6s8 4 8 6-3.6 6-8 6-8-4-8-6Z"/>
+              </svg>
+            </span>
+            <h3>Web Development</h3>
+            <ul class="skill-tags">
+              <li>React.js</li><li>Vite</li><li>Tailwind CSS</li><li>Node.js</li><li>Express.js</li><li>Responsive Design</li>
+            </ul>
+          </div>
+
+          <div class="skill-card" data-reveal style="--i:2">
+            <span class="skill-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8">
+                <ellipse cx="12" cy="6" rx="8" ry="3"/>
+                <path d="M4 6v6c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <h3>Database &amp; Backend</h3>
+            <ul class="skill-tags">
+              <li>MongoDB</li><li>Firebase</li><li>REST APIs</li><li>Laravel</li><li>ASP.NET Core MVC</li><li>Google Apps Script</li>
+            </ul>
+          </div>
+
+          <div class="skill-card" data-reveal style="--i:3">
+            <span class="skill-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8">
+                <rect x="7" y="2" width="10" height="20" rx="2"/>
+                <path d="M11 18h2" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <h3>Mobile Development</h3>
+            <ul class="skill-tags">
+              <li>Android Studio</li><li>Java</li><li>Mobile UI Design</li>
+            </ul>
+          </div>
+
+          <div class="skill-card" data-reveal style="--i:4">
+            <span class="skill-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M12 3v4M12 17v4M4.2 4.2l2.8 2.8M17 17l2.8 2.8M3 12h4M17 12h4M4.2 19.8L7 17M17 7l2.8-2.8" stroke-linecap="round"/>
+                <circle cx="12" cy="12" r="3"/>
+              </svg>
+            </span>
+            <h3>UI/UX &amp; Design</h3>
+            <ul class="skill-tags">
+              <li>Figma</li><li>Wireframing</li><li>Prototyping</li><li>Canva</li><li>Adobe Creative Cloud</li>
+            </ul>
+          </div>
+
+          <div class="skill-card" data-reveal style="--i:5">
+            <span class="skill-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M4 20l4-1 10-10-3-3L5 16l-1 4Z" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <h3>Development Tools</h3>
+            <ul class="skill-tags">
+              <li>Git</li><li>GitHub</li><li>VS Code</li><li>Google Workspace</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section experience">
+      <div class="section-inner">
+        <p class="eyebrow">Where I've worked</p>
+        <h2 class="section-title"><span class="bloom-icon" aria-hidden="true"></span>Experience</h2>
+
+        <ol class="timeline">
+          <li class="timeline-item" data-reveal style="--i:0">
+            <div class="timeline-node" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <span class="timeline-date">Sep 2025 – Nov 2025</span>
+              <h3>Student Assistant</h3>
+              <p class="timeline-org">De La Salle University – Dasmariñas, Student Wellness Center</p>
+              <ul>
+                <li>Coordinated daily administrative tasks and Students' Week activities, keeping event operations running smoothly.</li>
+                <li>Streamlined inquiry response and records organization, improving the accessibility and accuracy of student information.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline-item" data-reveal style="--i:1">
+            <div class="timeline-node" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <span class="timeline-date">Aug 2025 – May 2026</span>
+              <h3>Committee Member, Public Relations</h3>
+              <p class="timeline-org">College of Information and Computer Studies</p>
+              <ul>
+                <li>Produced promotional campaigns, captions, and social content that strengthened event visibility and audience engagement.</li>
+                <li>Helped plan and execute organizational events, coordinating attendees and on-site support.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline-item" data-reveal style="--i:2">
+            <div class="timeline-node" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <span class="timeline-date">Jun 2025 – Aug 2025</span>
+              <h3>Freelance Designer &amp; Retailer</h3>
+              <p class="timeline-org">Self-employed</p>
+              <ul>
+                <li>Designed and produced personalized printed name labels end-to-end, managing custom layouts and orders for accurate, on-time delivery.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline-item" data-reveal style="--i:3">
+            <div class="timeline-node" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <span class="timeline-date">Jan 2023 – Mar 2023</span>
+              <h3>Intern</h3>
+              <p class="timeline-org">Barangay Molino IV</p>
+              <ul>
+                <li>Designed visual materials for public pages to promote community events and announcements.</li>
+                <li>Encoded and managed confidential data and official barangay reports with accuracy and discretion.</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="section-inner">
+        <p class="eyebrow">Selected work</p>
+        <h2 class="section-title"><span class="bloom-icon" aria-hidden="true"></span>Featured Projects</h2>
+        <p class="section-note">Cards below are generated from a JavaScript array — edit the <code>projects</code> list in script.js to add your own.</p>
+
+        <div class="projects-grid" id="projectsGrid"></div>
+      </div>
+    </section>
+
+    <section id="education" class="section education">
+      <div class="section-inner">
+        <p class="eyebrow">Education &amp; certifications</p>
+        <h2 class="section-title"><span class="bloom-icon" aria-hidden="true"></span>Education &amp; Certifications</h2>
+
+        <div class="education-grid">
+          <div class="education-card" data-reveal>
+            <span class="education-year">2023 – 2027</span>
+            <h3>Bachelor of Information Technology</h3>
+            <p class="education-org">Major in Web Development &middot; De La Salle University – Dasmariñas</p>
+            <ul class="education-highlights">
+              <li>Dean's Lister since 2023</li>
+              <li>Fain Scholarship Recipient</li>
+              <li>Varsity Scholarship Recipient</li>
+              <li>DOLE SPES Grantee</li>
+            </ul>
+          </div>
+
+          <div class="certifications-card" data-reveal style="--i:1">
+            <h3>Certifications</h3>
+            <ul class="certifications-list">
+              <li>
+                <span class="cert-name">TOEIC: 865 — C1 Advanced Level</span>
+                <span class="cert-meta">Princeton Assessments &amp; Training, Inc &middot; 2025</span>
+              </li>
+              <li>
+                <span class="cert-name">Wonders and Perlis of Artificial Intelligence &amp; Emerging Technology</span>
+                <span class="cert-meta">Department of Information and Communications Technology &middot; Nov 2025</span>
+              </li>
+              <li>
+                <span class="cert-name">Network and Cybersecurity Fundamentals</span>
+                <span class="cert-meta">Department of Information and Communications Technology &middot; Nov 2025</span>
+              </li>
+              <li>
+                <span class="cert-name">Cisco Packet Tracer</span>
+                <span class="cert-meta">De La Salle University – Dasmariñas &middot; Cisco &middot; Jan 2025</span>
+              </li>
+              <li>
+                <span class="cert-name">Python Essentials 1</span>
+                <span class="cert-meta">De La Salle University – Dasmariñas &middot; Cisco &middot; Dec 2024</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-inner">
+        <p class="eyebrow">Get in touch</p>
+        <h2 class="section-title"><span class="bloom-icon" aria-hidden="true"></span>Let's Connect</h2>
+        <p class="section-note">Open to internship and freelance opportunities — reach out through the form, or connect directly below.</p>
+
+        <div class="contact-grid">
+          <form id="contactForm" class="contact-form" novalidate data-reveal>
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Juan Dela Cruz" autocomplete="name" />
+              <span class="field-error" id="nameError"></span>
+            </div>
+
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" />
+              <span class="field-error" id="emailError"></span>
+            </div>
+
+            <div class="form-field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Tell me about your project or just say hi..."></textarea>
+              <span class="field-error" id="messageError"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">Send message</button>
+
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+
+          <div class="contact-side" data-reveal style="--i:1">
+            <h3>Prefer another way?</h3>
+
+            <div class="social-buttons">
+                <a href="https://www.linkedin.com/in/allysonmartin-908914392/" target="_blank" rel="noopener" class="social-btn social-btn-linkedin" id="linkedinLink">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
+                <span>Connect on LinkedIn</span>
+              </a>
+
+
+              <a href="mailto:martinallyson165@gmail.com" class="social-btn social-btn-email">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <span>Email me</span>
+              </a>
+            </div>
+
+            <ul class="contact-list">
+              <li>
+                <span class="contact-label">Email</span>
+                <a class="contact-value contact-link" href="mailto:martinallyson165@gmail.com">martinallyson165@gmail.com</a>
+              </li>
+              <li>
+                <span class="contact-label">Based in</span>
+                <span class="contact-value">Cavite, Philippines</span>
+              </li>
+              <li>
+                <span class="contact-label">Open to</span>
+                <span class="contact-value">Internships </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Made by Martin</p>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M12 19V5M5 12l7-7 7 7" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </button>
+
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close project details">&times;</button>
+      <span class="modal-tag" id="modalTag"></span>
+      <h3 id="modalTitle"></h3>
+      <p id="modalDescription"></p>
+      <ul class="modal-stack" id="modalStack"></ul>
+      <a href="#" id="modalLink" class="btn btn-primary" target="_blank" rel="noopener">Visit project</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
