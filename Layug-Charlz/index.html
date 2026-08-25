@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>OPERATOR FILE // Portfolio Terminal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="crt-overlay"></div>
+
+    <div class="terminal">
+        <!-- ================= HEADER ================= -->
+        <header class="corp-bar">
+            <div class="corp-id">
+                <span class="corp-mark">&#9711;</span>
+                <div class="corp-name-block">
+                    <span class="corp-name">C. LAYUG</span>
+                    <span class="corp-tagline">INFORMATION TECHNOLOGY STUDENT</span>
+                </div>
+            </div>
+            <div class="corp-status">
+                <span class="status-dot"></span>
+                OPERATOR ONLINE
+                <button type="button" id="themeToggle" class="theme-toggle" aria-pressed="false">
+                    <span class="theme-toggle-icon">&#9680;</span>
+                    <span class="theme-toggle-label">LIGHT MODE</span>
+                </button>
+            </div>
+        </header>
+
+        <nav class="corp-nav">
+            <a href="#about">// ABOUT</a>
+            <a href="#systems">// SYSTEMS</a>
+            <a href="#archive">// PROJECT ARCHIVE</a>
+            <a href="#contact">// CONTACT</a>
+        </nav>
+
+        <!-- ================= HERO ================= -->
+        <section class="panel hero-section" id="about">
+            <div class="module-label">// OPERATOR PROFILE</div>
+            <div class="hero-grid">
+                <div>
+                    <h1 class="hero-name">CHARLZ LAYUG</h1>
+                    <p class="hero-role">INFORMATION TECHNOLOGY STUDENT &mdash; BASED IN CAVITE, PH</p>
+                    <p class="hero-bio">
+                        I build web interfaces and backend systems for academic and personal 
+                        projects, with a focus on practical solutions and clear user experiences. 
+                        I enjoy turning ideas into functional applications, working with APIs 
+                        and databases, and writing code that is easy to understand and maintain.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="btn" href="#archive">VIEW ARCHIVE &#8594;</a>
+                        <a class="btn btn-ghost" href="#contact">OPEN CHANNEL</a>
+                    </div>
+                </div>
+                <div class="hero-clearance">
+                    <dl>
+                        <dt>STATUS</dt>
+                        <dd>AVAILABLE</dd>
+                        <dt>FOCUS</dt>
+                        <dd>WEB DEV</dd>
+                        <dt>LEVEL</dt>
+                        <dd>STUDENT</dd>
+                        <dt>TIMEZONE</dt>
+                        <dd>UTC+8</dd>
+                    </dl>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= SKILLS / SYSTEMS ================= -->
+        <section class="panel" id="systems">
+            <div class="module-label">// SYSTEM CAPABILITIES</div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>FRONTEND</h3>
+                    <div class="skill-bar-track">
+                        <div class="skill-bar-fill" style="width: 75%;"></div>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JAVASCRIPT</span>
+                        <span class="tag">REACT</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3>BACKEND</h3>
+                    <div class="skill-bar-track">
+                        <div class="skill-bar-fill" style="width: 35%;"></div>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">NODE.JS</span>
+                        <span class="tag">EXPRESS</span>
+                        <span class="tag">REST API</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3>DATABASE</h3>
+                    <div class="skill-bar-track">
+                        <div class="skill-bar-fill" style="width: 45%;"></div>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">MYSQL</span>
+                        <span class="tag">SQL</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3>TOOLING</h3>
+                    <div class="skill-bar-track">
+                        <div class="skill-bar-fill" style="width: 70%;"></div>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">GIT</span>
+                        <span class="tag">GITHUB</span>
+                        <span class="tag">VS CODE</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= PROJECT ARCHIVE ================= -->
+        <section class="panel archive-module" id="archive">
+            <div class="module-label">// PROJECT ARCHIVE</div>
+            <div class="specimen-list">
+                <article class="specimen">
+                    <div class="specimen-head">
+                        <span class="specimen-id">ENTRY // 001</span>
+                        <span class="specimen-id">2025</span>
+                    </div>
+                    <h3>GOVASSIST WEBSITE</h3>
+                    <p>GovAssist is a web application designed to help users access and 
+                        navigate government assistance information in one place. 
+                        It provides an organized interface for browsing available government 
+                        services, offices, and related information, making it easier for 
+                        users to find the assistance they need.</p>
+                    <div class="specimen-meta">
+                        <span class="tag">REACT</span>
+                        <span class="tag">NODE</span>
+                        <span class="tag">EXPRESS</span>
+                    </div>
+                    <div class="specimen-links">
+                        <a href="https://github.com/zlrahc/government-assistance-website">SOURCE &#8594;</a>
+                    </div>
+                </article>
+
+                <article class="specimen">
+                    <div class="specimen-head">
+                        <span class="specimen-id">ENTRY // 002</span>
+                        <span class="specimen-id">2025</span>
+                    </div>
+
+                    <h3>DLSUD STUDENT RECOMMENDATION BOX</h3>
+
+                    <p>Student feedback and recommendation form designed to collect
+                        personal information, university recommendations, campus preferences,
+                        satisfaction ratings, and additional feedback. Submissions are
+                        processed through JavaScript and sent to a Google Apps Script endpoint
+                        for data collection.</p>
+
+                    <div class="specimen-meta">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JAVASCRIPT</span>
+                        <span class="tag">GOOGLE APPS SCRIPT</span>
+                    </div>
+
+                    <div class="specimen-links">
+                        <a href="https://zlrahc.github.io/survey-form/">LIVE SITE &#8594;</a>
+                        <a href="https://github.com/zlrahc/survey-form">SOURCE &#8594;</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ================= CONTACT ================= -->
+        <section class="panel contact-module" id="contact">
+            <div class="module-label">// OPEN CHANNEL</div>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <span class="label">EMAIL</span>
+                    <a href="mailto:charlzsrsly@gmail.com">charlzsrsly@gmail.com</a>
+                </div>
+                <div class="contact-card">
+                    <span class="label">GITHUB</span>
+                    <a href="https://github.com/zlrahc">github.com/zlrahc</a>
+                </div>
+                <div class="contact-card">
+                    <span class="label">LINKEDIN</span>
+                    <a href="https://linkedin.com/in/charlz-edison-layug-2a43813b9/">Charlz Edison Layug</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= FOOTER ================= -->
+        <footer class="corp-footer">
+            &#169; 2026 CHARLZ LAYUG // PORTFOLIO TERMINAL
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
