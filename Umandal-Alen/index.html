@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alen's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <a href="#"><h1>ALEN UMANDAL</h1></a>
+    </header>
+
+    <aside>
+      <h2>Navigation</h2>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#body_skills">Skills</a></li>
+        <li><a href="#body_hobbies">Interests & Hobbies</a></li>
+        <li><a href="#body_goals">Goals</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </aside>
+
+    <main>
+      <section id="about">
+        <div id="intro_content">
+          <img src="asset/headshot.png" alt="Alen's Profile Picture">
+          <div id="intro_text">
+            <h2>About Me</h2>
+            <h3>IT Student · Web Developer · Full Stack Developer</h3>
+            <p>
+              Undergraduate IT student at De La Salle University - Dasmariñas,
+              specializing in Web Development. Experienced across full-stack
+              projects, mainly with React, PHP, Java, Python, and SQL. My work
+              spans both frontend and backend development, with hands-on
+              experience in database design, UI/UX, and application
+              development. Focused on building things that solve actual
+              problems, and always looking to sharpen both technical and
+              professional skills through meaningful projects.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <p>Here are some of the projects I've worked on:</p>
+        <div class="project-gallery">
+          <article class="project-card">
+            <div class="project-img-wrapper">
+              <img src="asset/clipit.png" alt="clipit preview"
+                  class="project-img">
+            </div>
+            <div class="project-info">
+              <h3>clipit</h3>
+              <p class="project-desc">
+                Fast web-based video trimmer and compressor running 100%
+                locally in-browser.
+              </p>
+              <div class="project-tech">
+                <span>React</span>
+                <span>TypeScript</span>
+                <span>Vite</span>
+                <span>WebCodecs</span>
+                <span>ffmpeg.wasm</span>
+              </div>
+              <div class="project-links">
+                <a href="https://theronvspr.github.io/clipit/"
+                    target="_blank" rel="noopener noreferrer"
+                    class="project-link">Live Demo &rarr;</a>
+                <a href="https://github.com/theronvspr/clipit"
+                    target="_blank" rel="noopener noreferrer"
+                    class="project-link">GitHub &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-img-wrapper">
+              <img src="asset/unraveled.png" alt="Unraveled preview"
+                  class="project-img">
+            </div>
+            <div class="project-info">
+              <h3>Unraveled</h3>
+              <p class="project-desc">
+                Private, timer-driven journaling app that forces raw,
+                unedited stream-of-consciousness writing.
+              </p>
+              <div class="project-tech">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>IndexedDB</span>
+                <span>Google Drive API</span>
+              </div>
+              <div class="project-links">
+                <a href="https://theronvspr.github.io/Unraveled/"
+                    target="_blank" rel="noopener noreferrer"
+                    class="project-link">Live Demo &rarr;</a>
+                <a href="https://github.com/theronvspr/Unraveled"
+                    target="_blank" rel="noopener noreferrer"
+                    class="project-link">GitHub &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-img-wrapper">
+              <img src="asset/rec_relay.png" alt="rec.relay preview"
+                  class="project-img">
+            </div>
+            <div class="project-info">
+              <h3>rec.relay</h3>
+              <p class="project-desc">
+                Record on mobile, land on PC over local Wi-Fi via WebRTC
+                real-time connection.
+              </p>
+              <div class="project-tech">
+                <span>Node.js</span>
+                <span>Express</span>
+                <span>WebRTC</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/theronvspr/rec.relay"
+                    target="_blank" rel="noopener noreferrer"
+                    class="project-link">GitHub &rarr;</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="body_skills">
+        <h2>Skills</h2>
+        <p>Technologies, frameworks, and tools:</p>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Frontend engineering</h3>
+            <p>
+              Fast web applications running directly in the browser, with
+              responsive interfaces and local media processing.
+            </p>
+            <div class="skill-tags">
+              <span>React</span>
+              <span>TypeScript</span>
+              <span>Vite</span>
+              <span>React Router</span>
+              <span>WebCodecs</span>
+              <span>WebAssembly</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3>Full-stack systems</h3>
+            <p>
+              Reliable backend APIs, databases, passkey authentication, and
+              real-time local network data streaming.
+            </p>
+            <div class="skill-tags">
+              <span>Node.js</span>
+              <span>Express</span>
+              <span>WebAuthn</span>
+              <span>MySQL</span>
+              <span>WebRTC</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3>Tools and mobile</h3>
+            <p>
+              Native Android tools, Python automation scripts for everyday
+              tasks, and structured Git workflows.
+            </p>
+            <div class="skill-tags">
+              <span>Android Studio</span>
+              <span>Java</span>
+              <span>Python</span>
+              <span>Git</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="body_hobbies">
+        <h2>Interests and Hobbies</h2>
+        <p>Things I enjoy doing outside of school and coding:</p>
+        <ul>
+          <li>
+            Gaming: I love playing various genres of video games! Some of my
+            favourites are Minecraft, Terraria, Valorant, and Hollow Knight.
+          </li>
+          <li>
+            Music: I enjoy listening to music, particularly in the pop and
+            alternative genres.
+          </li>
+          <li>
+            F1: I follow Formula 1 racing and enjoy the excitement of the
+            sport.
+          </li>
+        </ul>
+      </section>
+
+      <section id="body_goals">
+        <h2>Goals</h2>
+        <p>My goals for the future include:</p>
+        <ul>
+          <li>
+            To graduate college and pursue a career in web development!!
+          </li>
+          <li>
+            To have a successful career and financial stability for my
+            unfortunate spending habits...
+          </li>
+          <li>
+            To travel and enjoy life!
+          </li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <div id="body_contact">
+          <h2>Contact Me</h2>
+          <p>
+            Feel free to reach out for collaborations, questions, or
+            opportunities:
+          </p>
+          <div class="contact-grid">
+            <a href="mailto:amc.umandal@gmail.com" class="contact-card">
+              <div class="contact-details">
+                <span class="contact-label">Email</span>
+                <span class="contact-value">amc.umandal@gmail.com</span>
+              </div>
+              <span class="contact-arrow">&rarr;</span>
+            </a>
+
+            <a href="https://github.com/Umandal-Alen"
+                target="_blank" rel="noopener noreferrer"
+                class="contact-card">
+              <div class="contact-details">
+                <span class="contact-label">GitHub</span>
+                <span class="contact-value">github.com/Umandal-Alen</span>
+              </div>
+              <span class="contact-arrow">&rarr;</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/umandalalen/"
+                target="_blank" rel="noopener noreferrer"
+                class="contact-card">
+              <div class="contact-details">
+                <span class="contact-label">LinkedIn</span>
+                <span class="contact-value">linkedin.com/in/umandalalen</span>
+              </div>
+              <span class="contact-arrow">&rarr;</span>
+            </a>
+
+            <a href="https://www.instagram.com/theronvspr/"
+                target="_blank" rel="noopener noreferrer"
+                class="contact-card">
+              <div class="contact-details">
+                <span class="contact-label">Instagram</span>
+                <span class="contact-value">@theronvspr</span>
+              </div>
+              <span class="contact-arrow">&rarr;</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
