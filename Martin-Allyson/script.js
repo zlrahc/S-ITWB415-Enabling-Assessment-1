@@ -31,6 +31,33 @@ const projects = [
   },
 ];
 
+const testimonials = [
+  {
+    quote:
+      "Ally led our thesis frontend from scratch and made sure every screen was easy for admins and students to actually use. She's thoughtful about details most people skip.",
+    name: "Group Thesis Adviser",
+    role: "AniSkolar Capstone Project",
+    initials: "GT",
+    color: "linear-gradient(135deg, #7FA871, #3C5A44)",
+  },
+  {
+    quote:
+      "Working with Ally on event materials was easy — she took loose ideas and turned them into clean, on-brand designs fast, every time.",
+    name: "Committee Co-Member",
+    role: "College of Information and Computer Studies",
+    initials: "CM",
+    color: "linear-gradient(135deg, #E1A83C, #C68A25)",
+  },
+  {
+    quote:
+      "She's reliable, organized, and genuinely cares about getting the small things right — whether that's a form, a record, or a design layout.",
+    name: "Supervisor",
+    role: "DLSU-D Student Wellness Center",
+    initials: "SW",
+    color: "linear-gradient(135deg, #5E8A54, #23362A)",
+  },
+];
+
 const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 const header = document.getElementById("siteHeader");
@@ -271,6 +298,34 @@ document.addEventListener("keydown", (e) => {
 
 buildProjectCards();
 attachTiltEffect(document.querySelectorAll(".project-card"), { maxTilt: 6, lift: 6 });
+
+const testimonialsGrid = document.getElementById("testimonialsGrid");
+
+function buildTestimonialCards() {
+  testimonials.forEach((testimonial, index) => {
+    const card = document.createElement("article");
+    card.className = "testimonial-card";
+    card.setAttribute("data-reveal", "");
+    card.style.setProperty("--i", index % 3);
+
+    card.innerHTML = `
+      <span class="testimonial-quote-mark" aria-hidden="true">&ldquo;</span>
+      <p class="testimonial-text">${testimonial.quote}</p>
+      <div class="testimonial-author">
+        <span class="testimonial-avatar" style="background:${testimonial.color}">${testimonial.initials}</span>
+        <div class="testimonial-author-info">
+          <span class="testimonial-name">${testimonial.name}</span>
+          <span class="testimonial-role">${testimonial.role}</span>
+        </div>
+      </div>
+    `;
+
+    testimonialsGrid.appendChild(card);
+  });
+}
+
+buildTestimonialCards();
+attachTiltEffect(document.querySelectorAll(".testimonial-card"), { maxTilt: 5, lift: 5 });
 
 const contactForm = document.getElementById("contactForm");
 const formStatus = document.getElementById("formStatus");
