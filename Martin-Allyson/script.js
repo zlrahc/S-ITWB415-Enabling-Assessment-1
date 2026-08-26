@@ -34,6 +34,12 @@ const projects = [
 const testimonials = [
   {
     quote:
+      "Ally is a reliable and positive teammate!",
+    name: "Charlz Edison Layug",
+    role: "Classmate",
+    initials: "CL",
+    color: "linear-gradient(135deg, #7FA871, #3C5A44)",
+  },
       "Ally has deep expertise in full-stack development. Their ability to seamlessly connect complex back-end logic with intuitive front-ends is incredibly impressive.",
     name: "Ramos-Lenard",
     role: "Classmate",
@@ -56,7 +62,7 @@ const testimonials = [
     role: "DLSU-D Student Wellness Center",
     initials: "SW",
     color: "linear-gradient(135deg, #5E8A54, #23362A)",
-  },
+  }
 ];
 
 const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
