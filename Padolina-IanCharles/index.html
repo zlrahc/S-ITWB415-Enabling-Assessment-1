@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ian Charles Padolina — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,500&family=EB+Garamond:wght@400;500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <span class="monogram">I·P</span>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <p class="kicker">Portfolio</p>
+      <h1>Ian Charles<br><em>Padolina</em></h1>
+      <div class="hero-rule"></div>
+      <p class="hero-sub">BS Information Technology, De La Salle University – Dasmariñas. I design and build small, considered web systems, and lead creative work for the Lasallian Student Ambassadors and Samahang Lasalyano.</p>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+      <div class="about-grid">
+        <p class="section-label">About</p>
+        <div>
+          <p class="about-lead">I like giving coursework a second life as working software — a billing calculator, a kiosk, a dashboard, a portal — rather than letting it end at submission.</p>
+          <p class="about-text">Green has been my quiet constant across every project, and XAMPP my usual local workbench. At the moment I'm building <em>Compile</em>, a capstone research management portal, while staying involved in the Lasallian Mission through design and organizing work with LSA and SL.</p>
+          <ul class="stack">
+            <li><span>Frontend</span>HTML, CSS, JavaScript</li>
+            <li><span>Backend</span>PHP, Node.js, Express</li>
+            <li><span>Database</span>MySQL, MongoDB</li>
+            <li><span>Tools</span>XAMPP, Git, Canva</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="work">
+      <p class="section-label">Selected Work</p>
+
+      <article class="project">
+        <div class="project-head">
+          <h2>Compile</h2>
+          <span class="tag">Capstone — in progress</span>
+        </div>
+        <p>A capstone and thesis research management portal for DLSU-D CICS, built with React, Vite, Node.js, Express, and MySQL.</p>
+      </article>
+
+      <article class="project">
+        <div class="project-head">
+          <h2>Water Billing Statement System</h2>
+          <span class="tag">Midterm Lab</span>
+        </div>
+        <p>A billing calculator drawing from a Google Sheets data source, deployed on GitHub Pages for lightweight, serverless access.</p>
+      </article>
+
+      <article class="project">
+        <div class="project-head">
+          <h2>Health Self-Check Kiosk</h2>
+          <span class="tag">Web App</span>
+        </div>
+        <p>A BMI calculator kiosk built for walk-up, self-service use — clear inputs, instant results.</p>
+      </article>
+
+      <article class="project">
+        <div class="project-head">
+          <h2>Student Portal System</h2>
+          <span class="tag">Web App</span>
+        </div>
+        <p>A student-facing portal covering core records and information workflows, built to practice full-stack fundamentals.</p>
+      </article>
+
+      <article class="project">
+        <div class="project-head">
+          <h2>Weather Dashboard</h2>
+          <span class="tag">API Project</span>
+        </div>
+        <p>A live weather dashboard powered by the Open-Meteo API, with a clean, glance-and-go layout.</p>
+      </article>
+
+      <article class="project">
+        <div class="project-head">
+          <h2>Secure Login &amp; Registration System</h2>
+          <span class="tag">PHP · MySQL</span>
+        </div>
+        <p>A hardened login and CRUD-based registration system, built to practice authentication and database security.</p>
+      </article>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+      <p class="section-label">Contact</p>
+      <h2>Let's build something together.</h2>
+      <p>Open to collaborations, organizational design work, or a conversation about a project.</p>
+      <div class="contact-links">
+        <a href="mailto:iancharles05padolina@gmail.com">Email</a>
+        <a href="https://github.com/Padolina-IanCharles" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/ian-charles-padolina-42011737a/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Ian Charles Padolina &copy; <span id="year"></span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
