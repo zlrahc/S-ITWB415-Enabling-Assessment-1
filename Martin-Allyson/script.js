@@ -34,28 +34,12 @@ const projects = [
 const testimonials = [
   {
     quote:
-      "Ally led our thesis frontend from scratch and made sure every screen was easy for admins and students to actually use. She's thoughtful about details most people skip.",
-    name: "Group Thesis Adviser",
-    role: "AniSkolar Capstone Project",
-    initials: "TB",
+      "Ally is a reliable and positive teammate!",
+    name: "Charlz Edison Layug",
+    role: "Classmate",
+    initials: "CL",
     color: "linear-gradient(135deg, #7FA871, #3C5A44)",
-  },
-  {
-    quote:
-      "Working with Ally on event materials was easy — she took loose ideas and turned them into clean, on-brand designs fast, every time.",
-    name: "Committee Co-Member",
-    role: "College of Information and Computer Studies",
-    initials: "CM",
-    color: "linear-gradient(135deg, #E1A83C, #C68A25)",
-  },
-  {
-    quote:
-      "She's reliable, organized, and genuinely cares about getting the small things right — whether that's a form, a record, or a design layout.",
-    name: "Supervisor",
-    role: "DLSU-D Student Wellness Center",
-    initials: "SW",
-    color: "linear-gradient(135deg, #5E8A54, #23362A)",
-  },
+  }
 ];
 
 const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
