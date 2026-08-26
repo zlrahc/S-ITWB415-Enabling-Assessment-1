@@ -40,6 +40,22 @@ const testimonials = [
     initials: "AU",
     color: "linear-gradient(135deg, #d3a6bd, #dddced)",
   },
+  {
+    quote:
+      "Working with Ally on event materials was easy — she took loose ideas and turned them into clean, on-brand designs fast, every time.",
+    name: "Committee Co-Member",
+    role: "College of Information and Computer Studies",
+    initials: "CM",
+    color: "linear-gradient(135deg, #E1A83C, #C68A25)",
+  },
+  {
+    quote:
+      "She's reliable, organized, and genuinely cares about getting the small things right — whether that's a form, a record, or a design layout.",
+    name: "Supervisor",
+    role: "DLSU-D Student Wellness Center",
+    initials: "SW",
+    color: "linear-gradient(135deg, #5E8A54, #23362A)",
+  },
 ];
 
 const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
