@@ -37,7 +37,7 @@ const testimonials = [
       "Ally led our thesis frontend from scratch and made sure every screen was easy for admins and students to actually use. She's thoughtful about details most people skip.",
     name: "Group Thesis Adviser",
     role: "AniSkolar Capstone Project",
-    initials: "GT",
+    initials: "TB",
     color: "linear-gradient(135deg, #7FA871, #3C5A44)",
   },
   {
