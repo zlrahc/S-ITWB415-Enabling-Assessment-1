@@ -43,11 +43,11 @@ const testimonials = [
 
   {
     quote:
-      "Working with Ally on event materials was easy — she took loose ideas and turned them into clean, on-brand designs fast, every time.",
-    name: "Committee Co-Member",
-    role: "College of Information and Computer Studies",
-    initials: "CM",
-    color: "linear-gradient(135deg, #E1A83C, #C68A25)",
+      "Ally is a skilled and a reliable developer who shows her creativity and problem-solving skills in every project she works on!",
+    name: "Alen Umandal",
+    role: "Classmate",
+    initials: "AU",
+    color: "linear-gradient(135deg, #d3a6bd, #dddced)",
   },
   {
     quote:
