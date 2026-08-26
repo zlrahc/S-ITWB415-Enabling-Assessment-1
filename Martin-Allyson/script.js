@@ -34,19 +34,20 @@ const projects = [
 const testimonials = [
   {
     quote:
+      "Ally has deep expertise in full-stack development. Their ability to seamlessly connect complex back-end logic with intuitive front-ends is incredibly impressive.",
+    name: "Ramos-Lenard",
+    role: "Classmate",
+    initials: "RL",
+    color: "linear-gradient(135deg, #7FA871, #3C5A44)",
+  },
+
+  {
+    quote:
       "Ally is a skilled and a reliable developer who shows her creativity and problem-solving skills in every project she works on!",
     name: "Alen Umandal",
     role: "Classmate",
     initials: "AU",
     color: "linear-gradient(135deg, #d3a6bd, #dddced)",
-  },
-  {
-    quote:
-      "Working with Ally on event materials was easy — she took loose ideas and turned them into clean, on-brand designs fast, every time.",
-    name: "Committee Co-Member",
-    role: "College of Information and Computer Studies",
-    initials: "CM",
-    color: "linear-gradient(135deg, #E1A83C, #C68A25)",
   },
   {
     quote:
