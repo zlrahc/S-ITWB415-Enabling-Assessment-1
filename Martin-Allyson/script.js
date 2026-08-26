@@ -39,6 +39,29 @@ const testimonials = [
     role: "Classmate",
     initials: "CL",
     color: "linear-gradient(135deg, #7FA871, #3C5A44)",
+  },
+      "Ally has deep expertise in full-stack development. Their ability to seamlessly connect complex back-end logic with intuitive front-ends is incredibly impressive.",
+    name: "Ramos-Lenard",
+    role: "Classmate",
+    initials: "RL",
+    color: "linear-gradient(135deg, #7FA871, #3C5A44)",
+  },
+
+  {
+    quote:
+      "Ally is a skilled and a reliable developer who shows her creativity and problem-solving skills in every project she works on!",
+    name: "Alen Umandal",
+    role: "Classmate",
+    initials: "AU",
+    color: "linear-gradient(135deg, #d3a6bd, #dddced)",
+  },
+  {
+    quote:
+      "She's reliable, organized, and genuinely cares about getting the small things right — whether that's a form, a record, or a design layout.",
+    name: "Supervisor",
+    role: "DLSU-D Student Wellness Center",
+    initials: "SW",
+    color: "linear-gradient(135deg, #5E8A54, #23362A)",
   }
 ];
 
