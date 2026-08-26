@@ -34,12 +34,13 @@ const projects = [
 const testimonials = [
   {
     quote:
-      "Ally led our thesis frontend from scratch and made sure every screen was easy for admins and students to actually use. She's thoughtful about details most people skip.",
-    name: "Group Thesis Adviser",
-    role: "AniSkolar Capstone Project",
-    initials: "TB",
+      "Ally has deep expertise in full-stack development. Their ability to seamlessly connect complex back-end logic with intuitive front-ends is incredibly impressive.",
+    name: "Ramos-Lenard",
+    role: "Classmate",
+    initials: "RL",
     color: "linear-gradient(135deg, #7FA871, #3C5A44)",
   },
+
   {
     quote:
       "Working with Ally on event materials was easy — she took loose ideas and turned them into clean, on-brand designs fast, every time.",
