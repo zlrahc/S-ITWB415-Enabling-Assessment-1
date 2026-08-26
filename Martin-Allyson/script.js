@@ -40,10 +40,12 @@ const testimonials = [
     initials: "CL",
     color: "linear-gradient(135deg, #7FA871, #3C5A44)",
   },
+  {
+    quote:
       "Ally has deep expertise in full-stack development. Their ability to seamlessly connect complex back-end logic with intuitive front-ends is incredibly impressive.",
-    name: "Ramos-Lenard",
+    name: "Lenard Ramos",
     role: "Classmate",
-    initials: "RL",
+    initials: "LR",
     color: "linear-gradient(135deg, #7FA871, #3C5A44)",
   },
 
@@ -57,12 +59,12 @@ const testimonials = [
   },
   {
     quote:
-      "She's reliable, organized, and genuinely cares about getting the small things right — whether that's a form, a record, or a design layout.",
-    name: "Supervisor",
-    role: "DLSU-D Student Wellness Center",
-    initials: "SW",
+      "Ally brings strong front-end skill and dedication to every team deliverable. She is responsive, adaptable, and great to work with.",
+    name: "Ian Charles Padolina",
+    role: "Classmate",
+    initials: "IP",
     color: "linear-gradient(135deg, #5E8A54, #23362A)",
-  }
+  },
 ];
 
 const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
